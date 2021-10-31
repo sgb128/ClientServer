@@ -6,10 +6,10 @@ import socket
 import time
 from common.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
     RESPONSE, ERROR, DEFAULT_IP_ADDRESS, DEFAULT_PORT, PORT
-from lesson3.common.utils import rsvmsg, sndmsg
+from lesson4.common.utils import rsvmsg, sndmsg
 
 
-def create_presence(port, account_name='Guest'):
+def create_presence(port=8888, account_name='Guest'):
     """
     Функция генерирует запрос о присутствии клиента
     :param account_name:

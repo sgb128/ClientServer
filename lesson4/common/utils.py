@@ -1,7 +1,7 @@
 """Утилиты"""
 
 import json
-from lesson3.common.variables import MAX_PACKAGE_LENGTH, ENCODING
+from lesson4.common.variables import MAX_PACKAGE_LENGTH, ENCODING
 
 
 def rsvmsg(client):

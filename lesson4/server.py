@@ -21,7 +21,7 @@ def check_msg(msg):
             and USER in msg and msg[USER][ACCOUNT_NAME] == 'Guest':
         return {RESPONSE: 200}
     return {
-        RESPONDEFAULT_IP_ADDRESSSE: 400,
+        RESPONSE: 400,
         ERROR: 'Bad Request'
     }
 
